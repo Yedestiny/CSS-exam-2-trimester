@@ -1,0 +1,97 @@
+body {
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*************************** DIV PRINCIPAL  *******************************/
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*************************** LETRAS DE LOGO  *******************************/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    font-family: 'Raleway';
+    color: #FFF;
+    font-size: 3vh;
+    left: 0;
+}
+
+.logo h1 {
+    font-family: 'Raleway';
+    color: #FFF;
+    font-size: 5vh;
+    left: 0;
+}
+
+
+/*************************** MENU  *******************************/
+
+.menu {
+    display: flex;
+    width: 100vh;
+    height: 15vh;
+    text-align: center;
+}
+
+
+/*************************** DIVS DENTRO DEL MENU  *******************************/
+
+.menu div {
+    display: flex;
+    align-items: center;
+    width: 15vh;
+    height: 5vh;
+    margin-right: 3vh;
+    margin-left: 4vh;
+    margin-top: 5vh;
+}
+
+.menu div:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu div:hover a {
+    color: black;
+}
+
+.menu div a {
+    font-family: 'Raleway';
+    color: #FFF;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+
+/*****************************   Footer   *************************/
+
+.footer {
+    width: 40vh;
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-family: 'Raleway';
+    color: #FFF;
+    margin-right: 10vh;
+}
+
+.piz {
+    text-align: left;
+}
+
+.pde {
+    text-align: right;
+}
